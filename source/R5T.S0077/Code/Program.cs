@@ -7,7 +7,9 @@ namespace R5T.S0077
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            MsBuildLocatorDemonstrations.Instance.Find_VisualStudioInstances();
+
+            //VisualStudioInstanceQueryOptionsDemonstrations.Instance.Describe_Default();
         }
     }
 }
